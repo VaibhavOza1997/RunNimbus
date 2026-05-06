@@ -25,6 +25,23 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ],
+    "extra": {
+      "appEnv": "development",
+      "admobIosAppId": "",
+      "admobAndroidAppId": "",
+      "admobInterstitialIos": "",
+      "admobInterstitialAndroid": "",
+      "supabaseUrl": "",
+      "supabaseAnonKey": "",
+      "revenuecatIosKey": "",
+      "revenuecatAndroidKey": "",
+      "eas": {
+        "projectId": "6d8892fa-3016-4516-b47a-4f67e4b7801b"
+      }
     }
   }
 }

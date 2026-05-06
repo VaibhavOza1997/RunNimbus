@@ -30,8 +30,21 @@ yarn-error.*
 .DS_Store
 *.pem
 
-# local env files
-.env*.local
+# Environment secrets — NEVER commit real values
+.env
+.env.*
+!.env.example
+
+# Firebase / Google services
+google-services.json
+GoogleService-Info.plist
+
+# Dynamic Expo config (contains injected secrets at build time)
+app.config.ts
+
+# Native signing credentials
+*.keystore
+*.cer
 
 # typescript
 *.tsbuildinfo
